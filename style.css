@@ -15,10 +15,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-  zoom: 0.8; /* Old IE only */
-  -moz-transform: scale(0.8);
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
 }
 
 p {
@@ -324,6 +320,7 @@ section {
 
 #experience {
   position: relative;
+  height: 96vh
 }
 
 .experience-sub-title {
